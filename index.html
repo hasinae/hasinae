@@ -733,7 +733,7 @@ function home() {
       ${SHOW_HOME_SERIES_LIST ? '<h2>Hasina Esteqlal</h2>' : ''}</section>
     ${SHOW_HOME_SERIES_LIST ? seriesList() : `<nav class="x-menu" aria-label="Sections">
       <ol>${MENU.map(([w, h, c], i) => `<li><a href="${h}"><span class="x-menu__w">${w}<span class="x-menu__n">${pad(i + 1)}</span></span><span class="x-menu__c">${c}</span></a></li>`).join('')}</ol>
-      <a class="x-menu__ig" href="https://www.instagram.com/555amclouds/" target="_blank" rel="noopener">instagram</a><span class="x-menu__dot" aria-hidden="true">·</span><a class="x-menu__ig" href="mailto:hasinaesteq@gmail.com">email</a>
+      <a class="x-menu__ig" href="https://www.instagram.com/555amclouds/" target="_blank" rel="noopener">instagram</a>
     </nav>`}
   </div>`;
 }
@@ -838,8 +838,7 @@ function about() {
     <button type="button" class="x-ab-pt" aria-label="Open photo: ${ABOUT_PT.alt}"><img src="${src(ABOUT_PT.file)}" width="1800" height="1200" alt="${ABOUT_PT.alt}" decoding="async" /></button>
     <div class="x-ab-meta">
       <p>Based in the San Francisco Bay Area.</p>
-      <p class="x-ab-links"><a href="https://www.instagram.com/555amclouds/" target="_blank" rel="noopener">Instagram @555amclouds</a>
-      <a href="mailto:hasinaesteq@gmail.com">hasinaesteq@gmail.com</a></p>
+      <p class="x-ab-links"><a href="https://www.instagram.com/555amclouds/" target="_blank" rel="noopener">Instagram @555amclouds</a></p>
       <p>© 2026 Hasina Esteqlal</p>
     </div>
   </div></div>`;
